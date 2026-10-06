@@ -13,6 +13,35 @@ hosta, serwera lub usługi.
 - Nie zakładaj, że port oznacza działającą usługę.
 - Każde ustalenie powinno mieć evidence.
 
+## Evidence Discipline
+
+- Never invent, infer, or reuse technical facts that are not present
+  in the current assessment evidence.
+- Every finding must reference explicit evidence collected during
+  the current assessment.
+- If evidence is unavailable, state "Not verified".
+- Do not convert assumptions into findings.
+- Do not use knowledge from previous sessions as evidence.
+- Distinguish:
+  - observed fact
+  - interpretation
+  - hypothesis
+  - recommendation.
+- Never report a port, service, container, version, configuration,
+  firewall rule or vulnerability unless it was explicitly observed
+  or returned by an available tool.
+
+### Finding validation
+
+Before reporting a finding, verify:
+
+1. Is the underlying fact explicitly present in collected evidence?
+2. Can I point to the exact tool result supporting it?
+3. Am I confusing a known configuration with the current state?
+4. Am I assuming something because it is common or expected?
+
+If any answer is uncertain, mark the item as "Not verified"
+and do not present it as an observed finding.
 ## Workflow
 
 1. Zidentyfikuj zakres.

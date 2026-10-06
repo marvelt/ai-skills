@@ -1,0 +1,3 @@
+security-vps-mcp/.venv/
+__pycache__/
+*.pyc
