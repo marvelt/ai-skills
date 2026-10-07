@@ -1,3 +1,7 @@
 security-vps-mcp/.venv/
 __pycache__/
 *.pyc
+
+# Local MCP installations
+intervals-mcp/
+intervals-mcp-bootstrap/
