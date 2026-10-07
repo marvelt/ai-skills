@@ -1,3 +1,7 @@
+---
+name: security-assessment
+description: Perform an evidence-driven security assessment of a host, server, or service using available read-only tools. Use when assessing security posture, exposed services, configuration evidence, or security findings.
+---
 # Security Assessment
 
 ## Cel
